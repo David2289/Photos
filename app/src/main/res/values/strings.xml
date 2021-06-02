@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Photos</string>
+
+    <string name="screen_photos_add">Add photo</string>
+
+    <string name="dialog_media_chooser_title">Photo chooser</string>
+    <string name="dialog_media_chooser_desc">Choose media to load a picture from Camera or Gallery</string>
+    <string name="dialog_media_chooser_btn_camera">Camera</string>
+    <string name="dialog_media_chooser_btn_gallery">Gallery</string>
+
+    <string name="dialog_set_camera_title">Camera Permission</string>
+    <string name="dialog_set_camera_desc">Camera Permission is not granted. Go Settings to enable it.</string>
+    <string name="dialog_set_camera_btn_title">Go Settings</string>
+
+    <string name="dialog_set_gallery_title">Gallery Permission</string>
+    <string name="dialog_set_gallery_desc">Gallery Permission is not granted. Go Settings to enable it.</string>
+    <string name="dialog_set_gallery_btn_title">Go Settings</string>
+
+    <string name="dialog_remove_photo_title">Remove Picture</string>
+    <string name="dialog_remove_photo_desc">Are you sure you want to remove the picture?</string>
+
+    <string name="screen_photos_btn_add_photo">Add photo</string>
+    <string name="screen_photos_btn_remove_photo">Remove photo</string>
+
+</resources>

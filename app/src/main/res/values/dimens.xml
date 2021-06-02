@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="customlayout_background_cornerradius">4dp</dimen>
+    <dimen name="customlayout_stroke_defaultwidth">1dp</dimen>
+    <dimen name="customlayout_shadow_defaultradius">6dp</dimen>
+    <dimen name="customlayout_shadow_defaultoffset_x">2dp</dimen>
+    <dimen name="customlayout_shadow_defaultoffset_y">1dp</dimen>
+
+    <dimen name="commons_05dp">5dp</dimen>
+    <dimen name="commons_10dp">10dp</dimen>
+    <dimen name="commons_15dp">15dp</dimen>
+    <dimen name="commons_20dp">20dp</dimen>
+    <dimen name="commons_25dp">25dp</dimen>
+    <dimen name="commons_30dp">30dp</dimen>
+    <dimen name="commons_35dp">35dp</dimen>
+    <dimen name="commons_40dp">40dp</dimen>
+    <dimen name="commons_45dp">45dp</dimen>
+    <dimen name="commons_50dp">50dp</dimen>
+
+    <dimen name="fontsize_display">30sp</dimen>
+    <dimen name="fontsize_headline">24sp</dimen>
+    <dimen name="fontsize_title">18sp</dimen>
+    <dimen name="fontsize_subtitle">16sp</dimen>
+    <dimen name="fontsize_body">15sp</dimen>
+    <dimen name="fontsize_caption">12sp</dimen>
+    <dimen name="fontsize_small">10sp</dimen>
+</resources>

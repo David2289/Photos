@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- region ****** GRAYS ****** -->
+    <color name="black">#FF000000</color>
+    <color name="mine_shaft">#333333</color>
+    <color name="emperor">#555555</color>
+    <color name="dove_gray">#666666</color>
+    <color name="boulder">#777777</color>
+    <color name="alto">#D0CDCD</color>
+    <color name="gallery">#EDEDED</color>
+    <color name="black_white">#FFFFFA</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- endregion -->
+
+    <!-- region ****** REDS ****** -->
+    <color name="amaranth">#D81B60</color>
+    <color name="apricot">#ED8080</color>
+    <color name="sundown">#FFA1B2</color>
+    <color name="pink">#FFC7D1</color>
+    <color name="white_red">#ffe7e6</color>
+    <!-- endregion -->
+
+    <!-- region ****** BLUES ****** -->
+    <color name="science_blue">#024EC9</color>
+    <color name="royal_blue">#5873E0</color>
+    <color name="portage">#7A90EB</color>
+    <color name="dodger_blue">#4287f5</color>
+    <color name="malibu">#7AADFF</color>
+    <!-- endregion -->
+
+    <!-- region ****** PURPLES ****** -->
+    <color name="purple_heart">#6544D4</color>
+    <color name="heliotrope">#9778FF</color>
+    <color name="melrose">#B7A1FF</color>
+    <color name="fog">#E0D6FF</color>
+    <!-- endregion -->
+
+    <!-- region ****** GREENS ****** -->
+    <color name="jungle_green">#27B366</color>
+    <color name="shamrock">#3DDC85</color>
+
+    <color name="citron">#87A628</color>
+    <color name="atlantis">#A4C639</color>
+    <color name="conifer">#B4D645</color>
+    <color name="sulu">#CBEB6A</color>
+    <color name="sulu2">#C6ED5A</color>
+    <!-- endregion -->
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Commons">
+        <attr name="title" format="string"/>
+        <attr name="subtitle" format="string"/>
+        <attr name="desc" format="string"/>
+        <attr name="image" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ListCardItemView">
+        <attr name="title"/>
+        <attr name="desc"/>
+    </declare-styleable>
+
+    <declare-styleable name="ListStdItemView">
+        <attr name="title"/>
+        <attr name="subtitle"/>
+        <attr name="image"/>
+        <attr name="endicon" format="integer"/>
+        <attr name="stroke_show" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomLayout">
+        <attr name="bgColor" format="color"/>
+        <attr name="bgCornerRadius" format="dimension"/>
+
+        <attr name="showStroke" format="enum">
+            <enum name="yes" value="1"/>
+            <enum name="no" value="0"/>
+        </attr>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+
+        <attr name="showShadow" format="enum">
+            <enum name="yes" value="1"/>
+            <enum name="no" value="0"/>
+        </attr>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowAlpha" format="float"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="shadowXOffset" format="dimension"/>
+        <attr name="shadowYOffset" format="dimension"/>
+    </declare-styleable>
+
+</resources>

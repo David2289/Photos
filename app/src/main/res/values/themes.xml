@@ -1,0 +1,81 @@
+<resources>
+
+    <style name="Theme.Green.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/shamrock</item>
+        <item name="colorPrimaryDark">@color/jungle_green</item>
+        <item name="colorOnPrimary">@color/black_white</item>
+        <!-- SECONDARY -->
+        <item name="colorSecondary">@color/melrose</item>
+        <item name="colorSecondaryVariant">@color/purple_heart</item>
+
+        <item name="colorError">@color/alto</item>
+        <item name="colorAccent">@color/amaranth</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black_white</item>
+        <!-- Texts default style. -->
+        <item name="android:textViewStyle">@style/Font.Regular.Body.Gray</item>
+        <!--<item name="android:buttonStyle">@style/Button.Secondary</item>--> <!-- project buttons default style (pressed_state doesn't work by this way) -->
+    </style>
+
+    <style name="Theme.Green.ActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/shamrock</item>
+        <item name="colorPrimaryDark">@color/jungle_green</item>
+        <item name="colorOnPrimary">@color/black_white</item>
+        <!-- SECONDARY -->
+        <item name="colorSecondary">@color/melrose</item>
+        <item name="colorSecondaryVariant">@color/purple_heart</item>
+
+        <item name="colorError">@color/alto</item>
+        <item name="colorAccent">@color/amaranth</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black_white</item>
+        <!-- Texts default style. -->
+        <item name="android:textViewStyle">@style/Font.Regular.Body.Gray</item>
+        <!--<item name="android:buttonStyle">@style/Button.Secondary</item>--> <!-- project buttons default style (pressed_state doesn't work by this way) -->
+    </style>
+
+    <style name="Theme.Purple.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/melrose</item>
+        <item name="colorPrimaryDark">@color/purple_heart</item>
+        <item name="colorOnPrimary">@color/black_white</item>
+        <!-- SECONDARY -->
+        <item name="colorSecondary">@color/malibu</item>
+
+        <item name="colorError">@color/alto</item>
+        <item name="colorAccent">@color/amaranth</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black_white</item>
+        <!-- Texts default style. -->
+        <item name="android:textViewStyle">@style/Font.Regular.Body.Gray</item>
+        <!--<item name="android:buttonStyle">@style/Button.Secondary</item>--> <!-- project buttons default style (pressed_state doesn't work by this way) -->
+    </style>
+
+    <style name="Theme.Purple.ActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/melrose</item>
+        <item name="colorPrimaryDark">@color/purple_heart</item>
+        <item name="colorOnPrimary">@color/black_white</item>
+        <!-- SECONDARY -->
+        <item name="colorSecondary">@color/malibu</item>
+
+        <item name="colorError">@color/alto</item>
+        <item name="colorAccent">@color/amaranth</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/black_white</item>
+        <!-- Texts default style. -->
+        <item name="android:textViewStyle">@style/Font.Regular.Body.Gray</item>
+        <!--<item name="android:buttonStyle">@style/Button.Secondary</item>--> <!-- project buttons default style (pressed_state doesn't work by this way) -->
+    </style>
+
+</resources>

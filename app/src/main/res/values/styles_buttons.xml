@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Button.Filled" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sailec_regular</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sailec_regular</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+
+    <!-- region ****** BUTTON FILLED ****** -->
+
+    <!-- region ****** BUTTON FILLED PRIMARY ****** -->
+
+    <style name="Button.Filled.Primary" parent="Button.Filled">
+        <item name="backgroundTint">@color/bgcolor_button_primary</item>
+        <item name="titleTextColor">@color/textcolor_button_primary_filled</item>
+
+    </style>
+
+    <style name="Button.Filled.Primary.Body" parent="Button.Filled.Primary">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="Button.Filled.Primary.Footer" parent="Button.Filled.Primary">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- region ****** BUTTON FILLED SECONDARY ****** -->
+
+    <style name="Button.Filled.Secondary" parent="Button.Filled">
+        <item name="backgroundTint">@color/bgcolor_button_secondary</item>
+        <item name="titleTextColor">@color/textcolor_button_secondary_filled</item>
+    </style>
+
+    <style name="Button.Filled.Secondary.Body" parent="Button.Filled.Secondary">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="Button.Filled.Secondary.Footer" parent="Button.Filled.Secondary">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- endregion -->
+
+
+
+    <!-- region ****** BUTTON OUTLINED ****** -->
+
+    <!-- region ****** BUTTON OUTLINED PRIMARY ****** -->
+
+    <style name="Button.Outlined.Primary" parent="Button.Outlined">
+        <item name="strokeColor">@color/bgcolor_button_primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="titleTextColor">@color/textcolor_button_primary_outlined</item>
+    </style>
+
+    <style name="Button.Outlined.Primary.Body" parent="Button.Outlined.Primary">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="Button.Outlined.Primary.Footer" parent="Button.Outlined.Primary">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <!-- endregion -->
+
+
+    <!-- region ****** BUTTON OUTLINED SECONDARY ****** -->
+
+    <style name="Button.Outlined.Secondary" parent="Button.Outlined">
+        <item name="strokeColor">@color/bgcolor_button_secondary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="titleTextColor">@color/textcolor_button_secondary_outlined</item>
+    </style>
+
+    <style name="Button.Outlined.Secondary.Body" parent="Button.Outlined.Secondary">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="Button.Outlined.Secondary.Footer" parent="Button.Outlined.Secondary">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- endregion -->
+
+
+</resources>

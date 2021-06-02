@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">start|center_vertical</item>
+    </style>
+
+
+    <!-- region ****** TEXT BUTTON MEDIUM ****** -->
+
+    <style name="TextButton.Medium" parent="TextButton">
+        <item name="android:fontFamily">@font/sailec_medium</item>
+    </style>
+
+    <!-- region ****** TEXT BUTTON MEDIUM BODY ****** -->
+
+    <style name="TextButton.Medium.Body" parent="TextButton.Medium">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="TextButton.Medium.Body.Primary" parent="TextButton.Medium.Body">
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextButton.Medium.Body.Secondary" parent="TextButton.Medium.Body">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="TextButton.Medium.Body.Black" parent="TextButton.Medium.Body">
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="TextButton.Medium.Body.Gray" parent="TextButton.Medium.Body">
+        <item name="android:textColor">@color/boulder</item>
+    </style>
+
+    <!-- endregion -->
+
+
+    <!-- region ****** TEXT BUTTON MEDIUM FOOTER ****** -->
+
+    <style name="TextButton.Medium.Footer" parent="TextButton.Medium">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <style name="TextButton.Medium.Footer.Primary" parent="TextButton.Medium.Footer">
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextButton.Medium.Footer.Secondary" parent="TextButton.Medium.Footer">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="TextButton.Medium.Footer.Black" parent="TextButton.Medium.Footer">
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="TextButton.Medium.Footer.Gray" parent="TextButton.Medium.Footer">
+        <item name="android:textColor">@color/boulder</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- endregion -->
+
+
+    <!-- region ****** TEXT BUTTON BOLD ****** -->
+
+    <style name="TextButton.Bold" parent="TextButton">
+        <item name="android:fontFamily">@font/sailec_bold</item>
+    </style>
+
+
+    <!-- region ****** TEXT BUTTON BOLD BODY ****** -->
+
+    <style name="TextButton.Bold.Body" parent="TextButton.Bold">
+        <item name="android:textSize">@dimen/fontsize_body</item>
+    </style>
+
+    <style name="TextButton.Bold.Body.Primary" parent="TextButton.Bold.Body">
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextButton.Bold.Body.Secondary" parent="TextButton.Bold.Body">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="TextButton.Bold.Body.Black" parent="TextButton.Bold.Body">
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="TextButton.Bold.Body.Gray" parent="TextButton.Bold.Body">
+        <item name="android:textColor">@color/boulder</item>
+    </style>
+
+    <!-- endregion -->
+
+
+    <!-- region ****** TEXT BUTTON BOLD FOOTER ****** -->
+
+    <style name="TextButton.Bold.Footer" parent="TextButton.Bold">
+        <item name="android:textSize">@dimen/fontsize_caption</item>
+    </style>
+
+    <style name="TextButton.Bold.Footer.Primary" parent="TextButton.Bold.Footer">
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="TextButton.Bold.Footer.Secondary" parent="TextButton.Bold.Footer">
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="TextButton.Bold.Footer.Black" parent="TextButton.Bold.Footer">
+        <item name="android:textColor">@color/mine_shaft</item>
+    </style>
+
+    <style name="TextButton.Bold.Footer.Gray" parent="TextButton.Bold.Footer">
+        <item name="android:textColor">@color/boulder</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- endregion -->
+
+
+</resources>
