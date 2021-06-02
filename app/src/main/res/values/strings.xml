@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Photos</string>
 
+    <string name="commons_yes">Yes</string>
+    <string name="commons_no">No</string>
+
     <string name="screen_photos_add">Add photo</string>
 
     <string name="dialog_media_chooser_title">Photo chooser</string>
