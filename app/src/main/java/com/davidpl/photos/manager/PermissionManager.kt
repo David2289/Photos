@@ -1,10 +1,10 @@
-package com.example.photos.utility.manager
+package com.davidpl.photos.manager
 
 import android.app.Activity
 import android.content.Context
 import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
-import com.example.commons.utility.helper.SharedPrefUtils
+import com.davidpl.photos.utility.SharedPrefUtils
 
 class PermissionManager {
 

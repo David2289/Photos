@@ -1,4 +1,4 @@
-package com.example.commons.utility.helper
+package com.davidpl.photos.utility
 
 import android.content.Context
 import android.content.SharedPreferences
